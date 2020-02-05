@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
 
-    [Range(0, 100f)][SerializeField] public float runSpeed = 40f;
+    [Range(0, 100f)][SerializeField] public float runSpeed = 60f;
 
     float horisontalMove = 0f;
 
